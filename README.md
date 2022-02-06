@@ -129,21 +129,16 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 | Library | Comment |
 |-----------|---------|
 | [Appium](https://appium.io/docs/en/drivers/windows/) | Supports testing of Universal Windows Platform (UWP) and Classic Windows (Win32) applications
-| [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) | *Discontinued*
 | [FlaUI](https://github.com/Roemer/FlaUI) | Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps)
-| [NUnitForms](http://nunitforms.sourceforge.net/) | *Discontinued*
 | [Ranorex](https://www.ranorex.com/) | GUI testing for desktop, web and mobile applications
 | [Squish GUI Tester](https://www.froglogic.com/squish/) | All kinds of cross-platform desktop, mobile, embedded and web applications
 | [TestComplete](https://smartbear.com/product/testcomplete/overview/) | "Ensure the quality of your application without sacrificing speed or agility with an easy-to-use, GUI test automation tool. Our AI-powered object recognition engine and script or scriptless flexibility is unmatched, letting you test every desktop, web, and mobile application with ease."
-| [TestStack.White](https://github.com/TestStack/White) | *Discontinued*
 | [WinAppDriver](https://github.com/Microsoft/WinAppDriver) | - Windows Application Driver<br>- Service to support Selenium-like UI Test Automation on Windows Applications<br>- Supports testing Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), and Classic Windows (Win32) apps on Windows 10 PCs
 
 # Database Testing
 
 | Library | Comment |
 |-----------|---------|
-| [DbUnit.NET](http://dbunit-net.sourceforge.net/) | *Discontinued*
-| [NDbUnit](https://github.com/NDbUnit/NDbUnit) | - *Discontinued*<br>- Managing database state during unit testing
 | [Respawn](https://github.com/jbogard/Respawn) | A small utility to help in resetting test databases to a clean state
 
 # Concurrent Testing
@@ -151,10 +146,7 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 | Library | Comment |
 |-----------|---------|
 | [FluentAssertions.Extensions](https://github.com/Kittyfisto/FluentAssertions.Extensions)
-| [Microsoft CHESS](http://research.microsoft.com/en-us/projects/chess/) | - *Discontinued*<br>- "CHESS is a tool for finding and reproducing Heisenbugs in concurrent programs. CHESS repeatedly runs a concurrent test ensuring that every run takes a different interleaving. If an interleaving results in an error, CHESS can reproduce the interleaving for improved debugging. CHESS is available for both managed and native programs."
 | [Microsoft Coyote](https://microsoft.github.io/coyote/)
-| [Osherove.ThreadTester](http://osherove.com/blog/2007/6/22/multi-threaded-unit-tests-with-osherovethreadtester.html) | *Discontinued*
-| [Typemock Racer](http://www.typemock.com/typemock-racer-product-old) | *Discontinued*
 
 # Memory Testing
 
@@ -221,7 +213,6 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 | [NCrunch](http://www.ncrunch.net/)
 | [NDepend](http://www.ndepend.com/)
 | [OpenCover](https://github.com/OpenCover/opencover)
-| [PartCover](http://sourceforge.net/projects/partcover/) | *Discontinued*
 | [Semantic Designs C# Test Coverage Tool](http://www.semanticdesigns.com/Products/TestCoverage/CSharpTestCoverage.html)
 | [Software Verify .NET Coverage Validator](http://www.softwareverify.com/dotnet-coverage.php)
 | [Squish Coco](http://www.froglogic.com/squish/coco/)
@@ -235,7 +226,6 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 
 | Library | Comment |
 |-----------|---------|
-| [Continuous Testing for Visual Studio 2010](https://marketplace.visualstudio.com/items?itemName=HavardS.ContinuousTestingforVisualStudio2010) | *Discontinued*
 | [ContinuousTests](http://www.continuoustests.com/) | Formerly Mighty Moose
 | **[dotCover](https://www.jetbrains.com/help/dotcover/Continuous_Testing.html)**
 | [Giles](http://codereflection.github.io/Giles/)
@@ -250,29 +240,19 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 |-----------|---------|
 | **[Fluent Assertions](http://www.fluentassertions.com/)**
 | [NFluent](http://www.n-fluent.net/)
-| [NUnitEx](https://code.google.com/archive/p/nunitex/) | *Discontinued*
-| [SharpTestEx](https://www.codewrecks.com/post/old/2011/03/writing-a-custom-assertion-for-sharptestex/) | *Discontinued*
-| [Should Assertion Library](https://github.com/erichexter/Should) | *Discontinued*
 | [Shouldly](https://github.com/shouldly/shouldly)
 
 # Test Data Builders and Dummy Data Generators
 
 | Library | Comment |
 |-----------|---------|
-| [Any-.Net](https://github.com/andrewseward/Any-.Net) | *Discontinued*
 | [AutoBogus](https://github.com/nickdodd79/AutoBogus)
 | **[AutoFixture](https://github.com/AutoFixture/AutoFixture)** |
-| [AutoPoco](http://autopoco.codeplex.com/) | *Discontinued*|
 | **[Bogus](https://github.com/bchavez/Bogus)** |
-| [Fabricator](http://fabricator.codeplex.com/) | *Discontinued*
 | [Faker.Net](https://github.com/slashdotdash/faker-cs) | 
 | [GenFu](https://github.com/MisterJames/GenFu) |
-| [Hydrator](http://hydrator.codeplex.com/) | *Discontinued*
 | [NBuilder](https://github.com/nbuilder/nbuilder) |
-| [NTestDataBuilder](https://www.nuget.org/packages/NTestDataBuilder/) | - Now TestStack.Dossier<br />- Discontinued
 | [TestData](https://github.com/kiandra-it/test-data) |
-| [TestDataFactory](https://github.com/titarenko/TestDataFactory) | *Discontinued*
-| [TestDataGenerator](https://github.com/etishor/TestDataGenerator) | *Discontinued*
 | [TestStack.Dossier](http://dossier.teststack.net/)
 | [Tynamix ObjectFiller.NET](https://github.com/Tynamix/ObjectFiller.NET)
 
@@ -296,7 +276,6 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 | [ArchUnitNET](https://github.com/TNG/ArchUnitNET) | Library for checking the architecture of C# code
 | [CheckTestOutput](https://github.com/exyi/CheckTestOutput) | A library for semi-manual tests. Run a function, manually check the output. But only if it is different than last run
 | [Compare-Net-Objects](https://github.com/GregFinzer/Compare-Net-Objects) | Deep compare of any two .NET objects using reflection
-| [Gallio Automation Platform](https://code.google.com/archive/p/mb-unit/) | - Common object model, runtime services and tools (such as test runners) that may be leveraged by any number of test frameworks.<br> - *Discontinued*
 | [ErrorUnit](http://errorunit.com/) | Debug C# application by automatically creating C# Unit Tests in Visual Studio that recreate the situation leading up to the error
 | [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode) | Generates valid, readable C# from an Expression Tree
 | [Harmony 2.0](https://harmony.pardeike.net/) | Runtime alter functionality by monkey patching methods
@@ -314,14 +293,11 @@ Testing system UI (Win32, WinForms, UWP, etc.), embedded, mobile apps
 | Library | Comment |
 |-----------|---------|
 | [GennyMcGenFace](https://marketplace.visualstudio.com/items?itemName=Armastevs.GennyMcGenFace) | Unit test generator
-| [nMate](https://code.google.com/archive/p/nmate/) | - Unit test code generator<br />- *Discontinued*
 | [QuickUnit Unit Test Designer](https://visualstudiogallery.msdn.microsoft.com/dd88f120-27c6-444a-beeb-3cbdad4b620c)
 | **[ReSharper](https://www.jetbrains.com/resharper/features/unit_testing.html)**
 | [TestDriven.Net](http://www.testdriven.net/)
 | [Unit Test Boilerplate Generator](https://marketplace.visualstudio.com/items?itemName=RandomEngy.UnitTestBoilerplateGenerator)
-| [Unit Test Generator](https://marketplace.visualstudio.com/items?itemName=VisualStudioALMRangers.UnitTestGenerator) | *Discontinued*
 | [Unitverse](https://marketplace.visualstudio.com/items?itemName=MattWhitfield.Unitverse) | Unit test generator
-| [Visual T#](https://web.archive.org/web/20110227025822/http://www.prettyobjects.com/en/Products/TSharp) | *Discontinued*
 | [WiseTester](https://marketplace.visualstudio.com/items?itemName=WiseTester.WiseTester-OvercomeUnitTestFailures)
 
 # References
