@@ -13,30 +13,6 @@ Please feel free to suggest changes and/or new tools/frameworks.
 Key:
 * **Bold** — Most Popular / Recommended
 
-# Table of Contents
-
-- [Unit Testing Frameworks](#unit-testing-frameworks)
-- [Isolation Frameworks](#isolation-frameworks)
-- [Acceptance Testing / Behavior-Driven Development / Specification by Example](#acceptance-testing--behavior-driven-development--specification-by-example)
-- [Web Application Testing](#web-application-testing)
-- [Web Testing](#web-testing)
-- [Cloud Testing](#cloud-testing)
-- [User Interface Testing](#user-interface-testing)
-- [Database Testing](#database-testing)
-- [Concurrent Testing](#concurrent-testing)
-- [Memory Testing](#memory-testing)
-- [Mutation Testing](#mutation-testing)
-- [Automated Exploratory Testing](#automated-exploratory-testing)
-- [Property-Based Testing](#property-based-testing)
-- [Approval Testing](#approval-testing)
-- [Code Coverage](#code-coverage)
-- [Continuous Testing](#continuous-testing)
-- [Fluent Assertion Frameworks](#fluent-assertion-frameworks)
-- [Test Data Builders and Dummy Data Generators](#test-data-builders-and-dummy-data-generators)
-- [Helper Libraries](#helper-libraries)
-- [Miscellaneous Tools](#miscellaneous-tools)
-- [Visual Studio Add-Ins](#visual-studio-add-ins)
-- [References](#references)
 
 # Unit Testing Frameworks
 
@@ -44,16 +20,12 @@ Key:
 
 | Library | Comment |
 |-----------|-----------
-| [csUnit](http://www.csunit.org/) | *Discontinued*
 | [EMTF](https://archive.is/rptLh#selection-360.0-360.7) | - *Discontinued*<br>- Known as Embeddable Micro Test Framework
 | [Expecto](https://github.com/haf/Expecto)  | F#
 | [FsUnit](http://fsprojects.github.io/FsUnit/) |  F#
 | [Fuchu](https://github.com/mausch/Fuchu) | F# / C# / VB.NET
-| [MbUnit](https://code.google.com/p/mb-unit/) | *Discontinued*
 | [MSTest](https://github.com/Microsoft/testfx) | Also known as Microsoft Test Framework
 | **[NUnit](http://www.nunit.org/)** | 
-| [NUnitLite](https://github.com/nunit/nunitlite) | *Discontinued*
-| [Roaster](https://roaster.codeplex.com/) |  Discontinued
 | [Unquote](http://www.swensensoftware.com/unquote) | F#
 | **[xUnit.net](https://xunit.net/)** | 
 
@@ -64,15 +36,12 @@ Key:
 | Library | Comment |
 |-----------|---------|
 | **[FakeItEasy](http://fakeiteasy.github.io/)**
-| [Foq](https://github.com/fsprojects/Foq) | F#, *Discontinued*
 | [JustMock](http://www.telerik.com/products/mocking.aspx) | Non-free
 | [JustMock Lite](http://www.telerik.com/justmock/free-mocking)
 | [Microsoft Fakes](https://msdn.microsoft.com/en-us/library/hh549175.aspx) | Previously known as Microsoft Moles
 | **[Moq](https://github.com/Moq/moq4)** | See also:<br>- [AutoMoq](https://github.com/darrencauthon/AutoMoq) ([updated fork](https://github.com/dariusz-wozniak/AutoMoq))<br>- [Automoqer](https://github.com/rbengtsson/Automoqer) ([updated fork](https://github.com/dariusz-wozniak/Automoqer))
 | [NMock](http://nmock.sourceforge.net/)
 | **[NSubstitute](http://nsubstitute.github.io/)**
-| [NUnit.Mocks](https://www.nuget.org/packages/NUnit.Mocks/) | *Discontinued*
-| [Rhino Mocks](https://meisinger2.wordpress.com/category/rhino-mocks/) | *Discontinued*
 | [SimpleStubs](https://github.com/microsoft/SimpleStubs)
 | [Typemock Isolator](http://www.typemock.com/isolator-product-page) | Non-free
 
@@ -87,23 +56,18 @@ Key:
 | [Concordion.NET](http://concordion.org/dotnet/)
 | [CoreBDD](https://github.com/stevenknox/CoreBDD/)
 | [Cucumber](https://cucumber.io/)
-| [Cuke4Nuke](https://github.com/richardlawrence/Cuke4Nuke/wiki) | *Discontinued*
 | [FitNesse](http://fitnesse.org/)
 | [Gauge](http://getgauge.io/)
 | [HonestCode](http://honestcode.io/)
 | [LightBDD](https://github.com/Suremaker/LightBDD)
 | [LoFuUnit](https://github.com/hlaueriksson/LoFuUnit)
 | **[Machine.Specifications](https://github.com/machine/machine.specifications)** | Also known as MSpec
-| [NaturalSpec](https://github.com/forki/NaturalSpec) | *Discontinued*
 | [NBehave](http://nbehave.org/)
-| [NDecision](https://github.com/bradygaster/NDecision) | *Discontinued*
 | [NSpec](http://nspec.org/)
 | [Robot Framework](http://robotframework.org/)
-| [Spec4Net](https://bitbucket.org/fthomsen/spec4net/src) | *Discontinued*
 | **[SpecFlow](http://www.specflow.org/)**
 | [SpecsFor](http://specsfor.com/)
 | [Specter](http://specter.sourceforge.net/)
-| [StoryQ](http://storyq.codeplex.com/) | *Discontinued*
 | [StoryTeller](http://storyteller.github.io/)
 | [SubSpec](https://subspec.codeplex.com/)
 | [System.Spec](https://github.com/alexfalkowski/System.Spec)
@@ -121,11 +85,7 @@ Testing web application UI e.g. via browser engine.
 | **[Atata](https://github.com/atata-framework/atata)**
 | [Canopy](http://lefthandedgoat.github.io/canopy/) | F#
 | [Coypu](https://github.com/featurist/coypu)
-| [FluentAutomation](https://github.com/stirno/FluentAutomation) | *Discontinued*
-| [IeUnit](https://code.google.com/archive/p/ieunit/) | *Discontinued*
-| [Ivonna](http://ivonna.biz/) | *Discontinued*
 | [Netling](https://github.com/hallatore/Netling) | Load tests for web
-| [NUnitAsp](http://nunitasp.sourceforge.net/) | *Discontinued*
 | **[Playwright for .NET](https://github.com/microsoft/playwright-sharp)** | - Port of [Playwright](https://playwright.dev/)<br />- Developed by Microsoft
 | [Puppeteer Sharp](https://github.com/kblok/puppeteer-sharp) | - See also [Puppeteer Sharp Contributions](https://github.com/hlaueriksson/puppeteer-sharp-contrib)
 | [Ranorex](https://www.ranorex.com/) | GUI testing for desktop, web and mobile applications
@@ -135,7 +95,6 @@ Testing web application UI e.g. via browser engine.
 | [TestComplete](https://smartbear.com/product/testcomplete/overview/)
 | [TestLeft](https://smartbear.com/product/testleft/overview/)
 | [TestStack.Seleno](http://seleno.teststack.net/)
-| [WatiN](https://www.nuget.org/packages/WatiN/) | *Discontinued*
 
 # Web Testing
 
@@ -150,7 +109,6 @@ Testing ASP.NET, HTTP, HttpClient, REST, Web Sockets, AMQP, Blazor etc.
 | [Mock4Net](https://github.com/alexvictoor/mock4net) | A fluent API allows to specify the behavior of the server and hence easily stub and mock webservices and REST resources
 | [MockHttp](https://github.com/richardszalay/mockhttp) | Replacement for `HttpMessageHandler`
 | [MockNet](https://github.com/Theorem/MockNet) | Friendly mocking framework to unit test the System.Net.Http namespace
-| [MockingBird](https://archive.codeplex.com/?p=mockingbird) | *Discontinued*
 | [My Tested ASP.NET](https://docs.mytestedasp.net/) | A fluent unit testing library for ASP.NET Core MVC 
 | [NBomber](https://nbomber.com/) | Pull and Push testing: HTTP/WebSockets/AMQP etc or a semantic model Pull/Push
 | [PactNet](https://github.com/pact-foundation/pact-net) |  - Port of [Pact](https://pact.io/)<br />- Testing for integrating web apps, APIs and microservices
